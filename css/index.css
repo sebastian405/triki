@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.jugador1{
+    width: 19%;
+    height: 99vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(95, 248, 95);
+    float: left;
+    box-shadow: 0 0 5px green,
+    0 0 10px rgb(76, 244, 76),
+    0 0 20px rgb(63, 251, 63),
+    0 0 40px rgb(47, 246, 47),
+    0 0 80px rgb(69, 248, 135),
+    0 0 90px rgb(84, 243, 95),
+    0 0 100px rgb(59, 247, 103);
+    ;
+}
+.juego{
+    width: 61.6%;
+    height: 99vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    float: left;
+    background-color: black;
+}
+.jugador2{
+    width: 19%;
+    height: 99vh;
+    background-color: blue;
+    float: right;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue;
+}
+.imagen{
+    width: 100%;
+    height: 20%;
+    margin-top: 20%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.nombre{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(41, 246, 26);
+    margin-top: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.puntos{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(26, 246, 246);
+    margin-top: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.tiempo{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(246, 26, 206);
+    margin-top: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px rgb(0, 155, 251),
+    0 0 90px rgb(0, 155, 251),
+    0 0 100px rgb(0, 155, 251);
+    ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.triki{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.contenedorTriki{
+    width: 366px;
+    height: 366px;
+    margin-top: 5%;
+}
+.cuadrosTriki{
+    width: 120px;
+    height: 120px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 30px blue,
+    0 0 40px rgb(0, 155, 251),
+    0 0 50px rgb(0, 155, 251);
+    ;
+}
+.btnIniciar2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 50%;
+    border-radius: 10px;
+    background-color: blue;
+}
+.boton:hover{
+    box-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 30px blue,
+    0 0 40px rgb(0, 155, 251),
+    0 0 50px rgb(0, 155, 251);
+    ;
+}
+.logo{
+    width: 100%;
+    height: 99%;
+}
