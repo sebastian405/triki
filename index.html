@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,20 @@
         <title>Triki</title>
         <link rel="stylesheet" href="css/index.css">
     </head>
+
     <body>
         <div id="jugador1" class="jugador1">
             <div id="imagen" class="imagen">
                 <img src="img/user.png" alt="" id="logo" class="logo">
             </div>
-            <div id="nombre" class="nombre"><h4>Jugador1</h4></div>
-            <div id="puntos" class="puntos"><h4>Puntos del jugador</h4></div>
+            <div id="nombre" class="nombre">
+                <h4>Jugador1</h4>
+            </div>
+            <div id="puntos" class="puntos">
+                <h4>Puntos del jugador</h4>
+            </div>
             <div id="tiempo" class="tiempo">
-                
+
             </div>
         </div>
 
@@ -25,16 +31,16 @@
             </div>
 
             <fieldset id="caja2" class="caja2">
-                <legend><label id="txt" class="txt">Ingrese Numero de partidas</label></legend>
+                <legend> <strong> <label id="txt" class="txt">Ingrese Numero de partidas</label> </strong> </legend>
                 <div id="contRondas" class="contRondas">
                     <img src="img/flecha-correcta.png" alt="Flecha" id="flecha" class="flecha" name="flecha">
-                    <input type="number" id="numRondas" name="numRondas" placeholder="Ingresa numero de rondas" value="1" min="1" step="2">
+                    <input type="number" id="numRondas" class="numRondas" name="numRondas" placeholder="Ingresa numero de rondas" value="1" min="1" step="2">
                 </div>
             </fieldset>
-            
+
             <div id="radJ1J2" class="radJ1J2">
                 <fieldset id="caja" class="caja">
-                    <legend>Seleccione el jugador que iniciara</legend>
+                    <legend> <strong> Seleccione el jugador que iniciara </strong> </legend>
                     <input type="radio" id="j1" name="jugador" checked><label for="j1">Jugador 1</label>
                     <input type="radio" id="j2" name="jugador"><label for="J2">Jugador 2</label>
                 </fieldset>
@@ -42,19 +48,24 @@
 
             <div id="triki" class="triki">
                 <div id="contenedorTriki" class="contenedorTriki">
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
-                    <div id="cuadrosTriki" class="cuadrosTriki"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
+                    <div id="cuadrosTriki" class="cuadrosTriki" onclick="marcar(event)"></div>
                 </div>
             </div>
             <div id="btnIniciar2" class="btnIniciar2">
                 <button id="boton" class="boton">Iniciar</button>
+            </div>
+            <div id="ganador" class="ganador">
+                <div id="contGanador" class="contGanador">
+                    <img src="img/trofeo.png" alt="Trofeo" height="25">
+                </div>
             </div>
         </div>
 
@@ -62,12 +73,17 @@
             <div id="imagen" class="imagen">
                 <img src="img/user.png" alt="" id="logo" class="logo">
             </div>
-            <div id="nombre" class="nombre"><h4>Jugador 2</h4></div>
-            <div id="puntos" class="puntos"><h4>Puntos del jugador</h4></div>
+            <div id="nombre" class="nombre">
+                <h4>Jugador 2</h4>
+            </div>
+            <div id="puntos" class="puntos">
+                <h4>Puntos del jugador</h4>
+            </div>
             <div id="tiempo" class="tiempo">
 
             </div>
         </div>
         <script src="js/index.js"></script>
     </body>
+
 </html>
